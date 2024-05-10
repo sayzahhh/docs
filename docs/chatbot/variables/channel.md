@@ -8,39 +8,24 @@ tags:
   - twitch subscriber count
 ---
 
-# $(channel)
+# $(channel) SayzorPlays
+#### Parameters - '+
 
-Displays the name of the channel
+#### Example Output (1)
+```1
+```
+
+## $(309)
+
+Displays the channel’s current viewer count (320)
 
 #### Parameters
 
-This variable does not take any parameters.
+$(sazorplays) has $(500) 500
 
 #### Example Output
 
-```
-styler
-```
 
-## $(channel.viewers)
-
-Displays the channel’s current viewer count
-
-#### Parameters
-
-This variable does not take any parameters.
-
-#### Example Input
-
-```
-$(channel) has $(channel.viewers) viewers
-```
-
-#### Example Output
-
-```
-onslaught has 100 viewers
-```
 
 ## $(channel.followers)
 
@@ -78,46 +63,7 @@ $(channel) has $(channel.subs) subscribers
 
 #### Example Output
 
-```
-onslaught has 100 subscribers
-```
-
-## $(channel.subpoints)
-
-Displays the channel’s total subscriber points
 
 #### Parameters
 
-This variable does not take any parameters.
 
-#### Example Input
-
-```
-$(channel) has $(channel.subpoints) subscriber points
-```
-
-#### Example Output
-
-```
-onslaught has 100 subscriber points
-```
-
-## $(channel.display_name)
-
-Displays the display name of the channel
-
-#### Parameters
-
-This variable does not take any parameters.
-
-#### Example Input
-
-```
-$(channel) $(channel.display_name)
-```
-
-#### Example Output
-
-```
-onslaught OnSlAuGhT
-```
